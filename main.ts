@@ -7,7 +7,7 @@ basic.forever(function () {
             . # . # .
             . . # . .
             `)
-    } else if (input.isGesture(Gesture.Shake)) {
+    } else if (input.isGesture(Gesture.TiltLeft)) {
         basic.showLeds(`
             # . # . #
             . # . # .
